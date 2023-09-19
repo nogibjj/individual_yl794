@@ -1,22 +1,14 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
-		
-lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
-
-format:	
-	black *.py 
+		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main test_*.py
+	py.test --nbval *.ipynb
 
-#container-lint:
-	#docker run --rm -i hadolint/hadolint < Dockerfile
+format:
+	nbqa black *.ipynb
 
-#refactor: format lint
+lint:
+	nbqa ruff *.ipynb
 
-#deploy:
-	#deploy goes here
-		
 all: install lint format test
