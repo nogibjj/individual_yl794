@@ -1,7 +1,3 @@
-# IDS706_Python_Week3
-Certainly! Here's a README for your project based on the provided details:
-
----
 
 # Grade Analysis Tool
 
@@ -51,5 +47,3 @@ This project offers tools to analyze students' grades from a dataset. Leveraging
 ## Contributing:
 
 Contributions are welcome! If you have suggestions, improvements, or spot any discrepancies, please submit a pull request or open an issue.
-
-## License:
