@@ -2,7 +2,7 @@
 # Grade Analysis Tool
 
 This project offers tools to analyze students' grades from a dataset. Leveraging the power of the `polars` library, we can derive insightful statistical measures such as the mean, median, and standard deviation of the grades. Additionally, we provide a simple histogram visualization to visually understand the grade distribution.
-https://youtu.be/vzyBp6AXZaw(introduction)
+https://youtu.be/vzyBp6AXZaw  (introduction)
 ## Files:
 
 1. **lib.py** 
